@@ -1,0 +1,24 @@
+.ParloursPageContent{
+    max-width: 1050px;
+    width: 94%;
+    margin: auto;
+}
+
+.DropdownHeader{
+    padding: 20px 0;
+}
+.DropdownHeader, .parlours-page-cards{
+        display: grid;
+        margin: auto;
+        grid-template-columns: repeat( auto-fit, minmax(330px, 1fr) );
+        grid-gap: 2rem;
+        width: 100%;
+}
+
+.DropdownHeader input{
+    /* border: 1px solid rgb(158, 158, 158); */
+    background-color: #FAFAFA;
+    border-radius: 6px;  
+    width: 100%;
+    padding: 12px 20px ;
+}

@@ -1,0 +1,15 @@
+.counterbutton{
+    width: 36px;
+    height: 36px;
+    color: white;
+    border: 2px solid rgb(209, 209, 209);
+    border-radius: 50px;
+    color: black;
+
+}
+
+.counter{
+    padding-left: 6px;
+    text-align: center;
+    
+}
